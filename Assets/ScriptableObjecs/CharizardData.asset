@@ -12,18 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d89a4f988a71c247ba7a13a87c21512, type: 3}
   m_Name: CharizardData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
-  maxHealth: 500
+  maxHealth: 700
   fighterName: Charizard
   attacks:
   - name: Garra Dragon
     animationName: Attack
-    minDamage: 100
-    maxDamage: 200
+    minDamage: 200
+    maxDamage: 400
     chargeParticles: {fileID: 4909675246442334068, guid: 02defcf1cf59b3d4f9312fdb37a98740, type: 3}
     attackParticles: {fileID: 7378892536456632981, guid: 45c6a8c69f8ef7849a28d809f31104f7, type: 3}
   - name: llamarada
     animationName: Attack2
-    minDamage: 70
-    maxDamage: 140
+    minDamage: 100
+    maxDamage: 200
     chargeParticles: {fileID: 3935929584071014234, guid: 3a5013e12424c1d4b9b2e452c2a33cb9, type: 3}
     attackParticles: {fileID: 7378892536456632981, guid: 45c6a8c69f8ef7849a28d809f31104f7, type: 3}
+  chargeTime: 2
