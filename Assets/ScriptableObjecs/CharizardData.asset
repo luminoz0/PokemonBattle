@@ -17,14 +17,20 @@ MonoBehaviour:
   attacks:
   - name: Garra Dragon
     animationName: Attack
+    attackSoundName: attack1CHARIZARD
     minDamage: 200
     maxDamage: 400
     chargeParticles: {fileID: 4909675246442334068, guid: 02defcf1cf59b3d4f9312fdb37a98740, type: 3}
     attackParticles: {fileID: 7378892536456632981, guid: 45c6a8c69f8ef7849a28d809f31104f7, type: 3}
   - name: llamarada
     animationName: Attack2
+    attackSoundName: Attack2CHARIZARD
     minDamage: 100
     maxDamage: 200
     chargeParticles: {fileID: 3935929584071014234, guid: 3a5013e12424c1d4b9b2e452c2a33cb9, type: 3}
     attackParticles: {fileID: 7378892536456632981, guid: 45c6a8c69f8ef7849a28d809f31104f7, type: 3}
   chargeTime: 2
+  appearParticles: {fileID: 3935929584071014234, guid: 3a5013e12424c1d4b9b2e452c2a33cb9, type: 3}
+  appearSoundName: ApareceCHARIZARD
+  damageSoundName: RecibeCHARIZARD
+  deadSoundName: MuereCHARIZAD
