@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d89a4f988a71c247ba7a13a87c21512, type: 3}
   m_Name: RayquazaData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
-  maxHealth: 500
+  maxHealth: 1000
   fighterName: rayquaza
   attacks:
-  - name: Attack
-    animationName: Ciclon
+  - name: Ciclon
+    animationName: Attack
     attackSoundName: Attack1RAYQUAZA
     minDamage: 100
     maxDamage: 200
     chargeParticles: {fileID: 1402472273348808594, guid: 5067c639fd4453049be512fcda956b8f, type: 3}
     attackParticles: {fileID: 4208913513894403266, guid: e275b95a08319c947ab97fd715d823ce, type: 3}
-  - name: Attack2
-    animationName: Pulso Dragon
+  - name: Pulso Dragon
+    animationName: Attack2
     attackSoundName: Attack2RAYQUAZA
     minDamage: 140
     maxDamage: 220

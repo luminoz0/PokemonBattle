@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d89a4f988a71c247ba7a13a87c21512, type: 3}
   m_Name: CharizardData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
-  maxHealth: 700
+  maxHealth: 1000
   fighterName: Charizard
   attacks:
   - name: Garra Dragon
