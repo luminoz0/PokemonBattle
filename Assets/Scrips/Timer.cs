@@ -25,6 +25,7 @@ public class Timer : MonoBehaviour
         {
             SoundManager.instance.Play(timerData[duration - 1].soundName);
             timerImage.sprite = timerData[duration - 1].texture;
+            timerImage.SetNativeSize();
             animator.Play("Show", 0, 0f);
             yield return new WaitForSeconds(1f);
             duration--;
