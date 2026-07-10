@@ -16,14 +16,14 @@ MonoBehaviour:
   fighterName: rayquaza
   attacks:
   - name: Ciclon
-    animationName: Attack
+    animationName: Attack 1
     attackSoundName: Attack1RAYQUAZA
     minDamage: 100
     maxDamage: 200
     chargeParticles: {fileID: 1402472273348808594, guid: 5067c639fd4453049be512fcda956b8f, type: 3}
     attackParticles: {fileID: 4208913513894403266, guid: e275b95a08319c947ab97fd715d823ce, type: 3}
   - name: Pulso Dragon
-    animationName: Attack2
+    animationName: Attack 2
     attackSoundName: Attack2RAYQUAZA
     minDamage: 140
     maxDamage: 220

@@ -17,7 +17,7 @@ public class FightManager : MonoBehaviour
     [SerializeField]
     private int minimumFighters = 2;
     [SerializeField]
-    private int maximumFighters = 2;
+    private int maximumFighters = 3;
     [SerializeField]
     private PoolManager poolManager;
     private List<Fighter> fighters = new List<Fighter>();
@@ -70,7 +70,7 @@ public class FightManager : MonoBehaviour
             attacker.transform.LookAt(attacker.transform);
             attacker.Animator.Play("Charge", 0, 0f);
             poolManager.GetObject(attackData.chargeParticles, attacker.transform.position);
-            DialogSystem.Instance.ShowDialog(attacker.FighterData.fighterName + "attacks with" + attackData.name + "!");
+            DialogSystem.Instance.ShowDialog(attacker.FighterData.fighterName + " attacks  with " + attackData.name + "!");
             yield return new WaitForSeconds(attacker.FighterData.chargeTime);
             attacker.Animator.Play(attackData.animationName, 0, 0f);
             SoundManager.instance.Play(attackData.attackSoundName);
